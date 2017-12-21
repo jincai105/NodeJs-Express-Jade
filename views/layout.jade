@@ -1,0 +1,16 @@
+doctype
+html
+  head
+    title #{title} - Etomon
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/flatly/bootstrap.min.css')
+  body
+    header
+      h3 Etomon
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p Running on node with Express, Jade and Stylus
+
